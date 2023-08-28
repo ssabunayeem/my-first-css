@@ -1,0 +1,45 @@
+.header {
+    font-size: 30px;
+    text-align: center;
+    color: rebeccapurple;
+    height: 500px;
+    /* background-color: bisque; */
+    /* background-image: url(islamic.jpg); */
+    background-image: url(../images/code1.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px; */
+
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second {
+    /* display: none; */
+    /* visibility: hidden; */
+    color: purple;
+    background-color: lightblue;
+}
+
+.blog {
+    margin: 30px;
+    border: 10px solid salmon;
+    box-shadow: 10px 10px 15px green;
+    text-align: justify;
+    padding: 10px;
+}
+
+.span-part {
+    border: 5px solid purple;
+    /* display: block; */
+    display: inline-block;
+    height: 50px;
+    margin: 30px;
+}

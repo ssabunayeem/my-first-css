@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+
+        *{
+            /* margin: 0; */
+        }
+
+        p {
+            /* color: red; */
+        }
+
+        #fifth, li {
+            font-size: 26px;
+        }
+
+        .sobuj, .lightgreen {
+            background-color: lightgreen;
+        }
+
+        .bold {
+            font-weight:800;
+        }
+
+        input[type="password" ] {
+            color: red;
+        }
+
+        .tag-part{
+            color: blueviolet;
+            font-size: 19px;
+            font-weight: 900;
+        }
+
+        .blog{
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p>My first <span class="tag-part">line CSS</span></p>
+    <p class="lightgreen">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="lightgreen bold">My fourth line CSS</p>
+    <p class="sobuj" id="fifth">My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+    <p>My seventh line CSS</p>
+
+    <ol>
+        <li>Element Selectors</li>
+        <li>ID selector</li>
+        <li class="bold sobuj">Class selector</li>
+        <li>universal</li>
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+
+    <div class="blog">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum minus suscipit ea modi voluptatibus accusamus rerum alias ullam! Eius provident, maiores deserunt nemo exercitationem cumque excepturi voluptates reiciendis facilis?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero officiis distinctio nemo sequi possimus magnam praesentium sint dolorem quasi illo magni corrupti reprehenderit deserunt eum, accusamus id nostrum recusandae. Voluptate.</p>
+    </div>
+
+
+
+</body>
+
+</html>
